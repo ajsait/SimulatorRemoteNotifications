@@ -450,7 +450,7 @@
 			name = SimulatorRemoteNotificationsExampleTests;
 			productName = SimulatorRemoteNotificationsExampleTests;
 			productReference = 515184DC16CC71AC007E471F /* SimulatorRemoteNotificationsExampleTests.octest */;
-			productType = "com.apple.product-type.bundle";
+			productType = "com.apple.product-type.bundle.ocunit-test";
 		};
 		517C989818B801C800FC4694 /* SimulatorRemoteNotifications-OSX */ = {
 			isa = PBXNativeTarget;
@@ -536,7 +536,7 @@
 			name = SimulatorRemoteNotificationsBackgroundExampleTests;
 			productName = SimulatorRemoteNotificationsBackgroundExampleTests;
 			productReference = 51EB436218B82B76002479EA /* SimulatorRemoteNotificationsBackgroundExampleTests.octest */;
-			productType = "com.apple.product-type.bundle";
+			productType = "com.apple.product-type.bundle.ocunit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -806,7 +806,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -828,7 +828,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1327,6 +1327,7 @@
 				51C4959C18B9B4720062E968 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		51D3517818B9B0F500ECA215 /* Build configuration list for PBXNativeTarget "SimulatorRemoteNotifications-iOS" */ = {
 			isa = XCConfigurationList;
